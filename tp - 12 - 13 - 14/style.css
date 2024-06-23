@@ -1,0 +1,57 @@
+body {
+    background-color: burlywood;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+.imagen{
+    background: fixed;
+}
+section  {
+    margin-bottom: 1%;
+}
+p {
+    text-align: center;
+}
+
+.carousel-inner {
+    max-height: 650px; 
+}
+#carouselExample {
+    border: 2px black solid;
+}
+.row {
+    flex-direction: row;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-weight: bold;
+    background-color: gray;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 50px;
+    height: 80px;
+    width: 100%;
+    padding: 0 80px;
+    nav {
+        ul {
+            list-style: none;
+        }
+    }
+}
+div {
+    img {
+        max-width: 100%;
+    }
+}
+.miGrid1 {
+    margin-bottom: 1%;
+    div {
+        img {
+            max-height: 95%;
+            border: white 2px solid;
+        }
+    }
+}
